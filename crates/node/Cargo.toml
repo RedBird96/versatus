@@ -1,0 +1,74 @@
+[package]
+name = "node"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+primitives = { workspace = true }
+block = { workspace = true }
+vrrb_core = { workspace = true }
+events = { workspace = true }
+telemetry = { workspace = true }
+vrrb_config = { workspace = true }
+storage = { workspace = true }
+wallet = { workspace = true }
+validator = { workspace = true }
+reward = { workspace = true }
+vrrb_rpc = { workspace = true }
+patriecia = { workspace = true }
+trecho = { workspace = true }
+secp256k1 = { workspace = true }
+sha256 = { workspace = true }
+rand = { workspace = true }
+bytebuffer = { workspace = true }
+serde_json = { workspace = true }
+serde = { workspace = true }
+blake3 = { workspace = true }
+pickledb = { workspace = true }
+tokio = { workspace = true }
+tokio-util = { workspace = true }
+hex = { workspace = true }
+thiserror = { workspace = true }
+ritelinked = { workspace = true }
+bincode = { workspace = true }
+uuid = { workspace = true }
+tracing = { workspace = true }
+miner = { workspace = true }
+public-ip = { workspace = true }
+anyhow = { workspace = true }
+async-trait = { workspace = true }
+derive_builder = { workspace = true }
+jsonrpsee = { workspace = true }
+bytes = { workspace = true }
+theater = { workspace = true }
+kademlia-dht = { workspace = true }
+dkg_engine = { workspace = true }
+hbbft = { workspace = true }
+mempool = { workspace = true }
+signer = { workspace = true }
+indexmap = { workspace = true }
+raptorq = { workspace = true }
+crossbeam-channel = { workspace = true }
+job_scheduler = { workspace = true }
+rayon = { workspace = true }
+lazy_static = { workspace = true }
+dashmap = { workspace = true }
+timer = { workspace = true }
+laminar = { workspace = true }
+ethereum-types = { workspace = true }
+quorum = { workspace = true }
+sha2 = { workspace = true }
+bulldag = { workspace = true }
+vrrb_http = { workspace = true }
+messr = { workspace = true }
+utils = { workspace = true }
+maglev = { workspace = true }
+dyswarm = { workspace = true }
+chrono = { workspace = true }
+integral-db = { workspace = true }
+
+[dev-dependencies]
+reqwest = { workspace = true }
+serial_test = { workspace = true }

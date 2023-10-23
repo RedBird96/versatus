@@ -1,0 +1,36 @@
+[package]
+name = "vrrb_rpc"
+version = "0.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+block = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+vrrb_core = { workspace = true }
+vrrb_config = { workspace = true }
+telemetry = { workspace = true }
+primitives = { workspace = true }
+storage = { workspace = true }
+mempool = { workspace = true }
+tracing = { workspace = true }
+axum = { workspace = true }
+axum-server = { workspace = true }
+tower = { workspace = true }
+tower-http = { workspace = true }
+hyper = { workspace = true }
+jsonrpsee = { workspace = true }
+async-trait = { workspace = true }
+anyhow = { workspace = true }
+events = { workspace = true }
+secp256k1 = { workspace = true }
+sha256 = { workspace = true }
+sha2 = { workspace = true }
+
+[dev-dependencies]
+hyper = { workspace = true }
+reqwest = { workspace = true }

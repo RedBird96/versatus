@@ -1,0 +1,27 @@
+[package]
+name = "miner"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ritelinked = { workspace = true }
+serde_json = { workspace = true }
+serde = { workspace = true }
+chrono = { workspace = true }
+bulldag = { workspace = true }
+sha256 = { workspace = true }
+secp256k1 = { workspace = true }
+patriecia = { workspace = true }
+primitives = { workspace = true }
+vrrb_core = { workspace = true }
+reward = { workspace = true }
+block = { workspace = true }
+mempool = { workspace = true }
+thiserror = { workspace = true }
+utils = { workspace = true }
+sha2 = { workspace = true }
+ethereum-types = { workspace = true }
+hbbft = { workspace = true }
+signer = { workspace = true }
